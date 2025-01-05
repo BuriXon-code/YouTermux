@@ -165,7 +165,7 @@ The script was tested before and after compilation to avoid problems with action
 
 ### YouTube age limitations:
 
-The script has implemented features and flags `-c` | `--cookies` that allow him to use YouTube cookie files of the selected browser. This allows logged in users to download content with applied age restrictions.
+The script has implemented features and flags `-c` | `--cookies` that allow script to use YouTube cookie files of the selected browser. This allows logged in users to download content with applied age restrictions.
 
 >[!NOTE]
 > To use this option, the user must be logged in to YouTube in a selected browser.
