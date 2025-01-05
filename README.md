@@ -1,5 +1,7 @@
 # YouTermux
 
+![screenshot](/youtermux.jpg)
+
 ## About ...
 
 ### What is YouTermux?
@@ -40,21 +42,110 @@ I am not a hacker. I try to create utility scripts, simple tools and games. YouT
 
 If you'd like to see the source code, let me know (contact details at the bottom of the page).
 
+![screenshot](/single.jpg)
+
 ## Installation and Usage ...
-
-
 
 ### Installation in Termux:
 
+To install the package in Termux you need to initialize:
+
+```
+git clone https://github.com/BuriXon-code/YouTermux
+cd YouTermux
+chmod +x youtermux
+```
+
+>[!NOTE]
+> Just in case, it is recommended to update the bash package first.
+
+>[!TIP]
+> Optionally, you can move the "youtermux" file to the "$PREFIX/bin" directory so that it can be run from the $PATH directory.
+
 ### Installation in Linux:
+
+To install the package in any Linux distribution you need to initialize:
+
+```
+git clone https://github.com/BuriXon-code/YouTermux
+cd YouTermux
+chmod +x youlinux
+```
+
+The first time you run the script, it will notify you about the packages it needs and/or install them itself.
+
+>[!WARNING]
+> The script requires the "python" package to be installed, which is not present on some Linux distributions.
+>
+> To resolve, you need to install the "python-is-python3" package.
 
 ### Usage:
 
+The script has a function that displays usage and parameter information along with simple usage examples and tips.
+
+To view help and usage information, run:
+
+```
+./youtermux -h
+```
+
+or 
+
+```
+./youlinux -h
+```
+
+![screenshot](/help.jpg)
+
 ### Examples:
+
++ Downloading one video to the test.webm file:
+
+```
+./youlinux -v -o test -u https://www.youtube.com/watch?v=dQw4w9WgXcQ
+```
+
+```
+./youlinux --video --output test --url https://www.youtube.com/watch?v=dQw4w9WgXcQ
+```
+
++ Downloading one audio to the original name file:
+
+```
+./youlinux -a -u https://www.youtube.com/watch?v=dQw4w9WgXcQ
+```
+
+```
+./youlinux --audio --url https://www.youtube.com/watch?v=dQw4w9WgXcQ
+```
+
++ Downloading all video from a playlist to video01..video99 files:
+
+```
+./youlinux -v -o video -up https://www.youtube.com/playlist?list=PLE0hg-LdSfycrpTtMImPSqFLle4yYNzWD
+```
+
+```
+./youlinux --video --output video --url-playlist https://www.youtube.com/playlist?list=PLE0hg-LdSfycrpTtMImPSqFLle4yYNzWD
+```
+
++ Video download from all URLs in the file using Firefox cookies:
+
+```
+./youlinux -v -f <path-to-file> -c firefox
+```
+
+```
+./youlinux -video -file <path-to-file> --cookies firefox
+```
+
+![screenshot](/playlist.jpg)
 
 ## Compatibility ...
 
 ### Enviroment:
+
+### Errors:
 
 ### Dependencies:
 
