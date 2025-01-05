@@ -1,4 +1,4 @@
-# YouTermux
+# YouTermux (beta) - YouTube Downloader
 
 ![screenshot](/youtermux.jpg)
 
@@ -144,6 +144,31 @@ or
 ## Compatibility ...
 
 ### Enviroment:
+
+The "youtermux" script is written for the Termux environment. It was tested on 2 versions of Termux (0.118 and 0.119), on 2 CPU architectures (aarch64 and x86), on 4 devices, on 4 kernels. Each time it worked without major problems on aarch64 (mobile devices).
+
+The script was tested before and after compilation to avoid problems with action.
+
+The "YouLinux" script is written for the GNU/Linux environment. It was tested on several Linux distributions (Kali, Ubuntu, Parrot, Mint...) on different kernel versions.
+
+>[!WARNING]
+> The script does not work properly on Ubuntu and Ubuntu-based systems.
+>
+> Unfortunately, I was not able to get to why this is happening.
+>
+> Due to the fact that by default I mainly write scripts for Termux, I will not work on repairing this problem.
+
+>[!CAUTION]
+> If the script action looks incorrect or suspicious, DO NOT RUN IT!!!
+
+The script was tested before and after compilation to avoid problems with action.
+
+### YouTube age limitations:
+
+The script has implemented features and flags `-c` | `--cookies` that allow him to use YouTube cookie files of the selected browser. This allows logged in users to download content with applied age restrictions.
+
+>[!NOTE]
+> To use this option, the user must be logged in to YouTube in a selected browser.
 
 ### Errors:
 
