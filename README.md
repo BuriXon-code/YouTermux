@@ -172,12 +172,39 @@ The script has implemented features and flags `-c` | `--cookies` that allow him 
 
 ### Errors:
 
-### Dependencies:
++ The script does not work properly on Ubuntu and Ubuntu-based distros.
+
++ Downloading a list of titles can digest a long time.
+
++ The script does not check the correctness of the input data. It can end the work with an error if you enter `-u`, `-up`, `-f` parameters incorrect.
+
++ The script will stop downloading files correctly if there are more than 100 when using the flag `-o` | `--output`.
 
 ### Version:
+
+The current version of the script is "1.0 beta", which means that this is the first and test version of the script.
+
+It is possible to appear additional errors that I could not notice or reproduce in my environment.
+
+![screenshot](/version.jpg)
+
+>[!CAUTION]
+> If the script action looks incorrect or suspicious, DO NOT RUN IT!!!
 
 ## Support ...
 
 ### Contact:
 
+In case of any problems, irregularities, suggestions and questions, please contact me:
+
++ Email : **support@burixon.com.pl**
+
++ Contact form : **[click here](https://burixon.com.pl/donate/)**
+
 ### Support me:
+
+I write useful and simple life tools to make life easier. If you consider this script and the others to be useful and helpful, you can let me know about it by paying tip on my website: **[DONATIONS](https://burixon.com.pl/kontakt.php)**.
+
+This should help me in further development, creating new projects, scripts and programs.
+
+The Termux and Linux environment is made up of users. Your contribution to my work can help us develop them all!
