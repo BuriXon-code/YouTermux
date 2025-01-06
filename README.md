@@ -199,11 +199,11 @@ In case of any problems, irregularities, suggestions and questions, please conta
 
 + Email : **support@burixon.com.pl**
 
-+ Contact form : **[click here](https://burixon.com.pl/donate/)**
++ Contact form : **[click here](https://burixon.com.pl/kontakt.php)**
 
 ### Support me:
 
-I write useful and simple life tools to make life easier. If you consider this script and the others to be useful and helpful, you can let me know about it by paying tip on my website: **[DONATIONS](https://burixon.com.pl/kontakt.php)**.
+I write useful and simple life tools to make life easier. If you consider this script and the others to be useful and helpful, you can let me know about it by paying tip on my website: **[DONATIONS](https://burixon.com.pl/donate/)**.
 
 This should help me in further development, creating new projects, scripts and programs.
 
