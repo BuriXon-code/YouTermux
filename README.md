@@ -203,7 +203,7 @@ In case of any problems, irregularities, suggestions and questions, please conta
 
 ### Support me:
 
-I write useful and simple life tools to make life easier. If you consider this script and the others to be useful and helpful, you can let me know about it by paying tip on my website: **[DONATIONS](https://burixon.com.pl/donate/)**.
+I write useful and simple life tools to make life easier. If you consider this script and the others to be useful and helpful, you can let me know about it by making a tip on my website: **[DONATIONS](https://burixon.com.pl/donate/)**.
 
 This should help me in further development, creating new projects, scripts and programs.
 
